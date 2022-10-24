@@ -63,12 +63,12 @@ def upload():
     with (p / secure_name).open('wb') as fp2:
             fp2.write(audio_data)   
                  
-    shutil.make_archive('str(session_id)', 'zip','./output')
+    shutil.make_archive('zipped', 'zip','./output')
     
       
-    local_file = str(session_id)+'.zip'
+    local_file = zipped.zip
     with open(local_file, 'rb') as f:
-            dbx.files_upload(f.read(), path=f"/aq/zipped.zip", mode=dropbox.files.WriteMode.overwrite)
+            dbx.files_upload(f.read(), path=f"/aq/zipped.zip", mode=dropbox.files.WriteMode.add)
      
 
         
