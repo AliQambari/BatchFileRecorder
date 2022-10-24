@@ -66,7 +66,7 @@ def upload():
     shutil.make_archive('zipped', 'zip','./output')
     
       
-    local_file = '/zipped.zip'
+    local_file = 'zipped.zip'
     with open(local_file, 'rb') as f:
             dbx.files_upload(f.read(), path=f"/aq/zipped.zip", mode=dropbox.files.WriteMode.add)
      
