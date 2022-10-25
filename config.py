@@ -9,7 +9,7 @@ load_dotenv(find_dotenv())
 
 app_key = "avs1fp3wryz7rxu"
 app_secret = "lywdvlrgk4vho1i"
-refresh_token = "0S_uYLg3zk4AAAAAAAAAAfILUG-CAZRAV5fWg1FElyBZz1fkeiLLFfaygESu240I"
+refresh_token = "aiad1QDoNhcAAAAAAAAAAe0oiJf8WqqQvf19oKYzXtusL9MCeO_r6fe2VQMNWug1"
 
 
 data = {'refresh_token': refresh_token, 'grant_type': 'refresh_token'}
