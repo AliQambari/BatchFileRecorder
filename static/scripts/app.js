@@ -180,11 +180,16 @@ function visualize(stream) {
 
 var wantedWords = [
   
-  'Up'
+        'بالا',
+	'پایین',
+	'چپ',
+	'راست'
+
 ];
 
 var fillerWords = [
-  'Dog'
+        'مستقیم',
+	'توقف'
 ];
 
 function getRecordedWords() {
@@ -203,7 +208,7 @@ function getRecordedWords() {
 function getAllWantedWords() {
   var wordCounts = {};
   wantedWords.forEach(function(word) {
-    wordCounts[word] = 5;
+    wordCounts[word] = 1;
   });
   fillerWords.forEach(function(word) {
     wordCounts[word] = 1;
