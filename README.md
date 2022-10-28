@@ -8,5 +8,5 @@ Thanks to the Mozilla team for the [Web Dictaphone sample application](https://d
 that I used as a starting point, [Sole](https://soledadpenades.com/) for the
 oscilloscope, and the Flask team for a lovely Python microframework!
 
-![under dev.](https://github.com/AliQambari/BatchFileRecorder/blob/main/Capture.PNG)
+![under dev.](https://github.com/AliQambari/BatchFileRecorder/blob/main/demo.gif)
 
