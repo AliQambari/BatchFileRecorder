@@ -1,3 +1,5 @@
+Heroku deploy here:
+audiodata.herokuapp.com / If unavailable, please head to: https://speechdata-neurorecall.fandogh.cloud/
 AudioData web app is based on Flask framework and Dropbox API used for data gathering.
 This project is inspired by Google Open Speech web app, but now Heroku compatible. Also thanks to Dropbox API, there's no need to use any other storage for data being uploaded. (The former web app developed by Google team was only compatible with google cloud API)
 + The problem of short term Dropbox tokens is solved with a refresh token!
